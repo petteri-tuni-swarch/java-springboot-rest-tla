@@ -21,8 +21,8 @@ Port to listen to.
 ## Rest calls 
 
 Test API
-`curl http://localhost:8471/api/1.0/info`  
+`curl http://localhost:8471/sample-api/1.0/info`  
 
 Fetch single tip 
-`curl http://localhost:8471/api/1.0/tips/7`  
+`curl http://localhost:8471/sample-api/1.0/id/7`  
 
