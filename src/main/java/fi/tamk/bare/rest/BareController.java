@@ -1,4 +1,4 @@
-package fi.tamk.bare.rest.rest;
+package fi.tamk.bare.rest;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
