@@ -3,16 +3,22 @@
 Simple REST API template.
 
 To run you need  
-Java 8  
+Java 11 (minimum 8)  
 Maven  
 Git  
 
-## Starting the service
-Jar ``java -jar template.jar``  
-Starting the Maven project: ``mvn spring-boot:run``
+## Clone and build
+````
+git clone https://github.com/petteri-tuni-swarch/java-springboot-rest-tla.git
+mvn install
+````
 
-## Package a runnable JAR file
-``mvn package``
+## Start the service
+````java -jar target/bare-rest-0.0.2-SNAPSHOT.jar````
+
+## Start the service in continuous development deploy mode (needs some IDE config to work properly)
+````mvn spring-boot:run````
+
 
 ## Configuration
 Configuration at file `application.yml`.   
@@ -20,9 +26,11 @@ Port to listen to.
 
 ## Rest calls 
 
-Test API
-`curl http://localhost:8471/sample-api/1.0/info`  
+Test API:
 
-Fetch single tip 
-`curl http://localhost:8471/sample-api/1.0/id/7`  
+````curl http://localhost:8471/sample-api/1.0/info````  
+
+Fetch single ... something:
+
+````curl http://localhost:8471/sample-api/1.0/id/7````  
 
