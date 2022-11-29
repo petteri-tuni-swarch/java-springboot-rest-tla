@@ -34,3 +34,7 @@ Fetch single ... something:
 
 ````curl http://localhost:8471/sample-api/1.0/id/7````  
 
+POST request:
+
+curl -H "Content-Type: application/json" -X POST -d '{"data":"sometext", "range": "300"}' localhost:8471/sample-api/1.0/post
+

@@ -26,4 +26,11 @@ public class BareController {
     public ResponseEntity<?> infoService(){
         return new ResponseEntity<>("Sample API service 1.0", HttpStatus.OK);
     }
+
+    @PostMapping("sample-api/1.0/post")
+    public ResponseEntity<?> postService (@RequestBody PostData data) {
+        System.out.println("Posted: " + data.toString());
+        return new ResponseEntity<>("Data posted ... thanks", HttpStatus.OK);
+    }
+
 }
