@@ -38,3 +38,14 @@ POST request:
 
 curl -H "Content-Type: application/json" -X POST -d '{"data":"sometext", "range": "300"}' localhost:8471/sample-api/1.0/post
 
+
+
+# Links / tutorials 
+
+* https://github.com/amigoscode/jdbc - Spring Boot REST API with JDBC Template
+* https://mkyong.com/java/java-11-httpclient-examples/ - Java 11 HttpClient Examples
+* https://www.baeldung.com/java-httpclient-post - Posting with Java HttpClient
+* https://openjdk.org/groups/net/httpclient/recipes.html - Examples and recipes
+* https://spring.io/guides/gs/rest-service/ - Spring documentation
+
+
